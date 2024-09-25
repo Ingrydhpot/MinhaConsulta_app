@@ -1,7 +1,7 @@
 import React from 'react';
 import { NativeBaseProvider, Box, Button, Center, Text } from 'native-base';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
-import { RootStackParamList } from '../navigation/AppNavigator'; // Importação da tipagem correta
+import { RootStackParamList } from './src/navigation/AppNavigator';
 
 type ConfirmAppointmentScreenNavigationProp = NativeStackNavigationProp<
   RootStackParamList,
